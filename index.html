@@ -25,7 +25,7 @@
 <body class="font-manrope">
   <!-- banner section with slide -->
   <header>
-    <div class="container relative flex mx-auto px-6 py-5 lg:px-20 lg:py-20">
+    <div class="container relative flex px-6 py-5 mt-5 lg:px-6 lg:py-6 mx-auto">
       <div class="carousel w-full">
         <div id="slide1" class="carousel-item relative w-full">
           <img src="Images/1.png" class="w-full" />
@@ -74,7 +74,7 @@
     <!-- profrssional section -->
     <section>
 
-      <div class="mx-auto my-[80px] mb-10 items-center justify-center text-center px-5 py-5 lg:px-20 lg:py-20 space-y-6">
+      <div class="mx-auto my-[80px] mb-10 items-center justify-center text-center mt-5 px-4 py-4 lg:px-6 lg:py-6 space-y-6">
         <h2 class="font-extrabold text-black text-[36px]">Professional Hockeys Club</h2>
         <p>In each of these sports, two teams play against each other by trying to manoeuvre the object of play</p>
       </div>
@@ -122,8 +122,8 @@
     <p class="text-base font-medium space-y-6">they share broad characteristics of two opposing teams using a stick to propel a ball or disk into a goal.</p></div>
 </section>
 <section>
-  <div class="container flex flex-col object-cover lg:flex-row mx-w-[1170px] mx-h-[338px]  mx-auto mt-4 px-6 py-5 lg:px-20 lg:py-4 gap-4">
-    <div class="hero min-h-screen" style="background-image: url(Images/2.png);">
+  <div class="container grid grid-cols-1 lg:grid-cols-2 object-cover mx-w-[1170px] mx-h-[338px]  mt-5 px-4 py-4 lg:px-6 lg:py-6 mx-auto gap-4">
+    <div class="hero min-h-screen pb-5" style="background-image: url(Images/2.png);" >
     <div class="hero-overlay bg-opacity-60"></div>
     <div class="hero-content text-center text-neutral-content">
       <div class="max-w-md text-left">
@@ -142,19 +142,22 @@
         <button class="btn btn-primary bg-[#FF4240;]">Register Now!</button>
       </div>
     </div>
-  </div></div>
-
-  <div class="container mx-auto mt-4 px-6 py-5 lg:px-20 lg:py-4 object-cover">
-    <div class="hero min-h-screen" style="background-image: url(Images/4.png);">
-      <div class="hero-overlay bg-opacity-60"></div>
-      <div class="hero-content text-center text-neutral-content">
-        <div class="max-w-md text-left">
-          <h1 class="mb-5 text-4xl font-bold">Professional Program</h1>
-          <p class="mb-5">Welcome to professonal program. voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi.</p>
-          <button class="btn btn-primary bg-[#FF4240;]">Register Now!</button>
-        </div>
+  </div>
+  <div class="hero min-h-screen grid-cols-1 lg:col-span-2" style="background-image: url(Images/4.png);">
+    <div class="hero-overlay bg-opacity-60"></div>
+    <div class="hero-content text-center text-neutral-content">
+      <div class="max-w-md text-left">
+        <h1 class="mb-5 text-4xl font-bold">Professional Program</h1>
+        <p class="mb-5">Welcome to professonal program. voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi.</p>
+        <button class="btn btn-primary bg-[#FF4240;]">Register Now!</button>
       </div>
     </div>
+  </div>
+
+
+</div>
+
+    
 
   </div>
 </section>
@@ -163,30 +166,109 @@
 
 <!-- our new products section -->
 <section>
+
   <div class="container mt-5 px-6 py-5 lg:px-20 lg:py-4 text-center mx-auto"><h2 class="text-2xl font-extrabold">Our New Products</h2>
   <p class="text-base font-medium">In each of these sports, two teams play against each other by trying to manoeuvre the object of play, either a type of ball or a disk.</p></div>
 
-  <div class="container grid grid-cols-2 lg:grid-cols-4 mt-5 px-6 py-5 lg:px-20 lg:py-4 mx-auto">
-    <div class="flex gap-4 mx-w-[575px]">
-      <div class="card lg:card-side bg-base-100 w-[50%] flex-1 shadow-xl">
-        <img  class="object-cover w-[180px]" src="Images/5.png" alt="Album"/>
-        
+
+  <!-- <div class="container mx-auto grid grid-cols-1 gap-4 space-y-4 lg:grid-cols-2 w-full"> -->
+    <div class="flex">
+      <div class="card lg:card-side bg-base-100 shadow-2xl">
+        <img  class="object-cover w-full h-full" src="Images/5.png" alt="Album"/>
         </div>
-        <div class="card-body flex-1 w-[50%]">
-          <div><i class="fa-solid fa-star text-orange-400"><span class="text-black font-extralight">5.0</span></i>
+        <div class="card-body flex">
+          <div class="flex gap-2"><i class="fa-solid fa-star text-orange-400"><span class="text-black font-extralight">5.0</span></i>
             <i class="fa-regular fa-eye font-bold">20</i>
-            <i class="fa-regular fa-heart font-bold">200</i> </div>
+            <i class="fa-regular fa-heart font-bold">200</i></div> 
           <h2 class="card-title">World Cup Flags Football</h2>
           <p>Click the button to listen app.</p>
-          <p class="text-orange-600 font-extrabold">Price - $22.00</p>
-          <i class="fa-solid fa-truck">Delivery Fee : Free</i>
-          
+          <div class="flex gap-2"><p class="text-orange-600 font-bold">Price - $22.00</p>
+            <i class="fa-solid fa-truck"><span class="font-thin text-base">Delivery Fee : Free</span></i></div>
           </div>
     </div>
-
+    <div class="flex">
+      <div class="card lg:card-side bg-base-100 shadow-2xl">
+        <img  class="object-cover w-full h-full" src="Images/5.png" alt="Album"/>
+        </div>
+        <div class="card-body flex">
+          <div class="flex"><i class="fa-solid fa-star text-orange-400"><span class="text-black font-extralight">5.0</span></i>
+            <i class="fa-regular fa-eye font-bold">20</i>
+            <i class="fa-regular fa-heart font-bold">200</i></div> 
+          <h2 class="card-title">World Cup Flags Football</h2>
+          <p>Click the button to listen app.</p>
+          <p class="text-orange-600 font-bold">Price - $22.00</p>
+          <i class="fa-solid fa-truck"><span class="font-thin text-base">Delivery Fee : Free</span></i>
+          </div>
     
-    </div>
+  </div>
+
+ </div>
+
+ <div class="container mx-auto grid lg:grid-cols-2 w-full">
+  <div class="flex">
+    <div class="card lg:card-side bg-base-100 shadow-2xl">
+      <img  class="object-cover w-full h-full" src="Images/5.png" alt="Album"/>
+      </div>
+      <div class="card-body flex">
+        <div class="flex"><i class="fa-solid fa-star text-orange-400"><span class="text-black font-extralight">5.0</span></i>
+          <i class="fa-regular fa-eye font-bold">20</i>
+          <i class="fa-regular fa-heart font-bold">200</i></div> 
+        <h2 class="card-title">World Cup Flags Football</h2>
+        <p>Click the button to listen app.</p>
+        <p class="text-orange-600 font-bold">Price - $22.00</p>
+        <i class="fa-solid fa-truck"><span class="font-thin text-base">Delivery Fee : Free</span></i>
+        </div>
+  </div>
+  <div class="flex">
+    <div class="card lg:card-side bg-base-100 shadow-2xl">
+      <img  class="object-cover w-full h-full" src="Images/5.png" alt="Album"/>
+      </div>
+      <div class="card-body flex">
+        <div class="flex"><i class="fa-solid fa-star text-orange-400"><span class="text-black font-extralight">5.0</span></i>
+          <i class="fa-regular fa-eye font-bold">20</i>
+          <i class="fa-regular fa-heart font-bold">200</i></div> 
+        <h2 class="card-title">World Cup Flags Football</h2>
+        <p>Click the button to listen app.</p>
+        <p class="text-orange-600 font-bold">Price - $22.00</p>
+        <i class="fa-solid fa-truck"><span class="font-thin text-base">Delivery Fee : Free</span></i>
+        </div>
   
+</div>
+
+</div>
+
+<div class="container mx-auto grid lg:grid-cols-2 w-full">
+  <div class="flex">
+    <div class="card lg:card-side bg-base-100 shadow-2xl">
+      <img  class="object-cover w-full h-full" src="Images/5.png" alt="Album"/>
+      </div>
+      <div class="card-body flex">
+        <div class="flex"><i class="fa-solid fa-star text-orange-400"><span class="text-black font-extralight">5.0</span></i>
+          <i class="fa-regular fa-eye font-bold">20</i>
+          <i class="fa-regular fa-heart font-bold">200</i></div> 
+        <h2 class="card-title">World Cup Flags Football</h2>
+        <p>Click the button to listen app.</p>
+        <p class="text-orange-600 font-bold">Price - $22.00</p>
+        <i class="fa-solid fa-truck"><span class="font-thin text-base">Delivery Fee : Free</span></i>
+        </div>
+  </div>
+  <div class="flex">
+    <div class="card lg:card-side bg-base-100 shadow-2xl">
+      <img  class="object-cover w-full h-full" src="Images/5.png" alt="Album"/>
+      </div>
+      <div class="card-body flex">
+        <div class="flex"><i class="fa-solid fa-star text-orange-400"><span class="text-black font-extralight">5.0</span></i>
+          <i class="fa-regular fa-eye font-bold">20</i>
+          <i class="fa-regular fa-heart font-bold">200</i></div> 
+        <h2 class="card-title">World Cup Flags Football</h2>
+        <p>Click the button to listen app.</p>
+        <p class="text-orange-600 font-bold">Price - $22.00</p>
+        <i class="fa-solid fa-truck"><span class="font-thin text-base">Delivery Fee : Free</span></i>
+        </div>
+  
+</div>
+
+</div>
 </section>
 
 <!-- our new products section ends-->
